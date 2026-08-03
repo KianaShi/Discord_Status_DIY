@@ -1,10 +1,15 @@
+<p align="right">
+  <a href="./README.md">English</a> | 
+  <strong>简体中文</strong>
+</p>
+
 # 自定义状态展示工具
 
 在 Discord 上展示自己写的"正在玩 XX"状态,不绑定任何真实游戏;附带一个本地学习
 计时器(正计时/倒计时)。纯 `tkinter` 做的,没有额外的重框架。
 
-## 直接下载链接
-https://github.com/KianaShi/Discord_Status_DIY/releases/latest/download/DiscordStatusDIY.exe
+## 直接下载
+[![下载 Windows 版本](https://img.shields.io/badge/下载-Windows%20EXE-blue?logo=windows)](https://github.com/KianaShi/Discord_Status_DIY/releases/latest/download/DiscordStatusDIY.exe)
 
 ## 安装
 
