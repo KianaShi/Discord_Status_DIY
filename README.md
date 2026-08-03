@@ -37,6 +37,9 @@ Python is not required when using the Windows executable.
 ## 🖼️ Preview
 
 <p align="center">
+  <img src="assets/discord-previewing.png" width="700" alt="Discord Preview">
+</p>
+<p align="center">
   <img src="assets/app-preview.png" width="700" alt="Discord Status DIY Preview">
 </p>
 
