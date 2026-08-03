@@ -36,18 +36,9 @@ Python is not required when using the Windows executable.
 
 ## 🖼️ Preview
 
-You can add a screenshot of the application here:
-
-```markdown
-![Discord Status DIY Preview](assets/app-preview.png)
-```
-
-Suggested project structure:
-
-```text
-assets/
-└── app-preview.png
-```
+<p align="center">
+  <img src="assets/app-preview.png" width="700" alt="Discord Status DIY Preview">
+</p>
 
 ## 🚀 Getting Started
 
