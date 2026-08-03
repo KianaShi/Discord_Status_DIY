@@ -3,7 +3,7 @@
   <a href="./README.zh-CN.md">简体中文</a>
 </p>
 
-# Discord Status DIY
+# 🎮 Discord Status DIY
 
 A small desktop tool for creating your own Discord Rich Presence status.
 
@@ -11,7 +11,7 @@ You can use it to display a custom “Playing …” status on Discord without c
 
 The interface is built with Python and Tkinter.
 
-## Download
+## ⬇️ Download
 
 ### Windows
 
@@ -23,7 +23,7 @@ Python is not required when using the Windows executable.
 
 > Windows may show a security warning because the application is not digitally signed. If you downloaded it from this repository, you can select **More info → Run anyway**.
 
-## What It Does
+## ✨ Features
 
 * Displays a custom Discord Rich Presence status
 * Lets you change the displayed activity text
@@ -34,7 +34,7 @@ Python is not required when using the Windows executable.
 * Runs without opening a command-line window
 * Keeps the Discord integration separate from the timer
 
-## Preview
+## 🖼️ Preview
 
 You can add a screenshot of the application here:
 
@@ -49,7 +49,7 @@ assets/
 └── app-preview.png
 ```
 
-## Using the Windows App
+## 🚀 Getting Started
 
 1. Download `DiscordStatusDIY.exe` from the Releases page.
 2. Open the Discord desktop application and sign in.
@@ -60,7 +60,7 @@ assets/
 
 The study timer can be used even when Discord is not connected.
 
-## Discord Setup
+## 🔧 Discord Setup
 
 ### 1. Create a Discord Application
 
@@ -134,7 +134,7 @@ This is normal and does not mean the application has crashed.
 
 The study timer will still work normally.
 
-## Study Timer
+## ⏱️ Study Timer
 
 The timer is completely local and does not depend on Discord.
 
@@ -187,7 +187,7 @@ start.bat
 
 The batch file starts the application with `pythonw`, so a console window will not stay open in the background.
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Discord_Status_DIY/
@@ -218,7 +218,7 @@ Discord_Status_DIY/
 | `README.md`                     | English documentation                                  |
 | `README.zh-CN.md`               | Chinese documentation                                  |
 
-## Configuration
+## ⚙️ Configuration
 
 The application stores local settings in:
 
@@ -242,7 +242,7 @@ You can copy and rename it if you prefer to create the configuration manually:
 config.example.json → config.json
 ```
 
-## Privacy
+## 🔒 Privacy
 
 The repository does not contain your personal Discord credentials.
 
@@ -252,7 +252,7 @@ Each user needs to create and use their own Discord Application ID.
 
 The application does not connect to a remote database or send configuration data to a separate server.
 
-## Adding Another Platform
+## 🧩 Adding Another Platform
 
 The project uses a small provider interface so that other status platforms can be added later.
 
@@ -279,7 +279,7 @@ providers/discord_provider.py
 
 This keeps most platform-specific logic outside the main interface code.
 
-## Building the Windows Executable
+## 📦 Building the Windows Executable
 
 Install PyInstaller:
 
@@ -307,7 +307,7 @@ For the README download link to work, keep the uploaded filename exactly as:
 DiscordStatusDIY.exe
 ```
 
-## Current Limitations
+## ⚠️ Current Limitations
 
 * Only support Chinese in app
 * Discord desktop must be running for Rich Presence to work
@@ -317,19 +317,7 @@ DiscordStatusDIY.exe
 * The current version focuses mainly on custom status text
 * The application is primarily designed for Windows
 
-## Why I Made This
-
-This is a small personal project made to explore:
-
-* Discord Rich Presence
-* Desktop GUI development with Tkinter
-* Local configuration management
-* Simple provider-based application structure
-* Packaging Python applications as Windows executables
-
-It is also a tool I wanted to use myself while studying.
-
-## License
+## 📄 License
 
 This project is currently shared for personal and educational use.
 
